@@ -62,6 +62,7 @@ public class HomeController : Controller
     //     memoryStream.Seek(0, SeekOrigin.Begin);
     //     return File(memoryStream, "application/octet-stream", "Bots.zip");
     // }
+    [HttpPost]
     public async Task<IActionResult> DownloadTe()
     {
 
